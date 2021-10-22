@@ -1,0 +1,32 @@
+$color: yellow;
+
+ul{
+    font-size: 15px;
+    color : $color;
+}
+ol{
+    font-size: 20px;
+    color: $color;
+}
+
+%message{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.success{
+    @extend %message;
+    background-color: green;
+}
+.attention{
+    @extend %message;
+    background-color: yellow;
+}
+.warning{
+    @extend %message;
+    background-color: red;
+}

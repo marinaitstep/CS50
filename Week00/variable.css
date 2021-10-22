@@ -1,0 +1,32 @@
+ul {
+  font-size: 15px;
+  color: yellow;
+}
+
+ol {
+  font-size: 20px;
+  color: yellow;
+}
+
+.success, .attention, .warning {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.success {
+  background-color: green;
+}
+
+.attention {
+  background-color: yellow;
+}
+
+.warning {
+  background-color: red;
+}
+/*# sourceMappingURL=variable.css.map */
